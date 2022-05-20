@@ -18,6 +18,8 @@ code {
   align-items: center;
   gap: 2rem;
   font-size: 1.3rem;
+  font-family: sans-serif;
+  padding: 16px 16px 128px;
 }
 .btn {
   /* width: 150px;
