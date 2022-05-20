@@ -1,5 +1,4 @@
 
-  /* Wrapping */
   .TooltipWrapper {
     display: inline-block;
     position: relative;
@@ -21,7 +20,7 @@
     white-space: nowrap;
   }
   
-  /* CSS border triangles */
+  /* CSS border triangles for direction */
   .TooltipTip::before {
     content: " ";
     left: 50%;
@@ -34,11 +33,11 @@
     margin-left: calc(6px * -1);
   }
   
-  /* Absolute positioning */
+  /* Absolute positioning of tooltip*/
   .TooltipTip.top {
     top: calc(30px * -1);
   }
-  /* CSS border triangles */
+  /* CSS border triangles for direction*/
   .TooltipTip.top::before {
     top: 100%;
     border-top-color: black;
